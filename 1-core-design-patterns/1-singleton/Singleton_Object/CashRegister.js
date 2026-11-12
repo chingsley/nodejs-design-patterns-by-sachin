@@ -6,7 +6,7 @@ const CashRegister = {
     return cash;
   },
   debit(amount) {
-    if(amount <= cash) {
+    if (amount <= cash) {
       cash = cash - amount;
       return true;
     } else {
@@ -14,8 +14,8 @@ const CashRegister = {
     }
   },
   total() {
-    return cash
+    return cash;
   }
-}
+};
 
-module.exports = CashRegister;
+module.exports = CashRegister; // this is the singleton instance

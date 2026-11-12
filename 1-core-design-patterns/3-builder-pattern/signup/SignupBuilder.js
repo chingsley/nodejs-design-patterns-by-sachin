@@ -1,5 +1,6 @@
 const Signup = require("./Signup");
 
+
 class SignupBuilder {
   constructor(name, email, age) {
     this.name = name;
@@ -8,7 +9,7 @@ class SignupBuilder {
   }
   setPhoto(photo) {
     this.photo = photo;
-    return this;
+    return this; // this is to allow method chaining
   }
   setNickname(name) {
     this.nickname = name;

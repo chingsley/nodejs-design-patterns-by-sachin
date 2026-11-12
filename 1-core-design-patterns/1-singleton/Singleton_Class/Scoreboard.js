@@ -25,4 +25,4 @@ class Scoreboard {
   }
 }
 
-module.exports = new Scoreboard();
+module.exports = new Scoreboard(); // this is the singleton instance

@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-design-patterns-by-sachin",
+  "version": "1.0.0",
+  "description": "### Follow the below steps to test the singleton pattern",
+  "main": "index.js",
+  "scripts": {
+    "builder:pattern:pizza": "node 1-core-design-patterns/3-builder-pattern/pizza/App.js",
+    "factory:pattern:phone": "node 1-core-design-patterns/2-factory-pattern/app.js",
+    "singleton:pattern:scoreboard": "node 1-core-design-patterns/1-singleton/Singleton_Class/App.js",
+    "singleton:pattern:cashregister": "node 1-core-design-patterns/1-singleton/Singleton_Object/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chingsley/nodejs-design-patterns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chingsley/nodejs-design-patterns/issues"
+  },
+  "homepage": "https://github.com/chingsley/nodejs-design-patterns#readme"
+}

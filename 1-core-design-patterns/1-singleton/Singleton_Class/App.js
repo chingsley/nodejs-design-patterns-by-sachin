@@ -20,5 +20,5 @@ Pete.wins(1000);
 
 console.log("Scoreboard: ", Poker.scores());
 console.log(
-  `Winner: ${Poker.getWinner().name} with ${Poker.getWinner().points} points`
+  `Winner: ${Poker.getWinnersetNicknamename} with ${Poker.getWinner().points} points`
 );
