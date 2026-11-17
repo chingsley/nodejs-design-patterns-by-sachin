@@ -7,12 +7,12 @@ class Bank {
     this[accounts] = [];
   }
 
-  [findAccount](name) {
+  [findAccount](name) { // private method. i.e. 'not revealed' to the outside world.
     return this[accounts].find(acc => acc.name === name);
   }
   createAccount(name, monies = 0) {
     const account = this[findAccount](name);
-    if (account) console.log("The account already exists");
+    if (account) return console.log("The account already exists");
 
     this[accounts].push({
       name,
